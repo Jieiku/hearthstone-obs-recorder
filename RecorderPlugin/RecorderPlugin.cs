@@ -9,7 +9,7 @@ namespace RecorderPlugin
 {
     public class RecorderPlugin : IPlugin
     {
-        private const int DELAY_AFTER_GAME_END_SECONDS = 10;
+        private const int DELAY_AFTER_GAME_END_SECONDS = 30;
 
         private readonly Recorder Recorder = new Recorder();
         private readonly SettingsDialog SettingsDialog;
